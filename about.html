@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    
+
+
+    <title>Portfolio</title>
+</head>
+<body style="background-image: linear-gradient( grey, rgb(109, 71, 71)); ">
+    
+    <div id="particles-js">
+        
+       <div class="mePage-title">
+           <h1>My story</h1><br>
+        
+       </div> 
+
+       <div>
+          <p class="para1">I am a dedicated and enthusiastic undergraduate student pursuing a degree in Computer Science at the University of Jayawardenepura. With a passion for technology and problem-solving, I am constantly exploring the latest advancements in software development, artificial intelligence, and machine learning</p> 
+       </div>
+
+       <!--pie chart-->
+       <div class="chartTitle">
+         
+        <h2>skills</h2> 
+
+        </div> 
+       
+       <div class="chart">
+
+        
+
+        <div class="piechart">
+            
+           
+       <div class="pie" style="--p:50"> HTML/CSS/JS</div>
+       <div class="pie" style="--p:35;--c:darkblue;--b:10px">PHP</div >
+        <div class="pie no-round" style="--p:25;--c:purple;--b:10px">ML </div>
+        <div class="pie animate no-round" style="--p:80;--c:orange;">JAVA </div>
+         <div class="pie animate" style="--p:90;--c:lightgreen"> C</div>
+     
+
+        </div>
+
+
+      </div>
+
+      <!--projects-->
+      <div class="chartTitle">
+         
+        <h2>Projects</h2> 
+
+        </div> 
+
+
+
+       <!-- <div class="projects"> -->
+                
+       
+        <div class="pjt">
+          
+          <div class="pjt1" onclick="location.href='https://github.com/Yasas-Sri/snake-game';">
+            <h3 style="margin-top:45%;">Snake Game</h3> 
+         </div>
+           </a> 
+         <div class="pjt1" onclick="location.href='https://github.com/Yasas-Sri/Todo-app';"  >
+          <h3 style="margin-top:45%;">Todo App</h3> 
+         </div>
+        </div> 
+       <!-- </div> -->
+
+
+
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>
+       
+      particlesJS.load('particles-js', '/particles.json',   function() {
+     console.log('callback - particles.js config loaded');
+   });
+    </script>
+</body>
+</html>
